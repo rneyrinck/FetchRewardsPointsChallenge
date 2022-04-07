@@ -12,6 +12,8 @@ This backend challenge uses Express, MongoDB, and NodeJs to accomplish the reque
    - [download here](http://git-scm.com/)
 3. NodeJs with NPM to install dependencies and run code
    - [download here](http://nodejs.org/)
+4. MongoDb desktop client
+    - [download here](https://www.mongodb.com/try/download/community)
 
 ## Instructions for use
 
