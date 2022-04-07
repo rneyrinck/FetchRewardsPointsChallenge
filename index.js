@@ -5,7 +5,7 @@ require('dotenv').config()
 const express = require('express')
 const logger = require('morgan')
 const app = express()
-const PORT = 3000
+const PORT = process.env.PORT
 const cors = require('cors');
 
 app.use(logger('dev'));

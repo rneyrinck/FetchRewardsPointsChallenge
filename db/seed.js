@@ -1,14 +1,13 @@
-const Payment = require('./../models/payment');
-const seedData = require('./seedData.json');
-
+const Payment = require("./../models/payment");
+const seedData = require("./seedData.json");
 
 // deletes all objects in memory
-Payment.deleteMany({}).then(() => {
-    // inserts seeddata.json file into memory
-    Payment.insertMany(seedData).then(() => {
-        // prints confirmation message
-        console.log('added data')
-        process.exit()
-    })
-})
-
+const seedDataBase = async () => {
+  await Payment.deleteMany({});
+  // inserts seeddata.json file into memory
+  await Payment.insertMany(seedData);
+  // prints confirmation message
+  console.log("added data");
+  process.exit();
+};
+seedDataBase()
