@@ -1,0 +1,17 @@
+[
+    {
+        "payer": "Dannon",
+        "points": 1000
+
+    },
+    {
+        "payer": "Miller",
+        "points": 10000
+
+    },
+    {
+        "payer": "Nabisco",
+        "points": 300
+
+    }
+]
