@@ -97,8 +97,8 @@ This backend challenge uses Express, MongoDB, and NodeJs to accomplish the reque
       - this will return the updated list
 
 ## Comments on the challenge
-This was a really enjoyable experience! It was the first time I've manipulated a data set using a map function inside of a CRUD operation. The biggest hiccup is having to kill the server to stop the PATCH request, but this can be avoided by making a new tab in Postman with a GET request. The request will work but a new PATCH will only be able to be called once the server is restarted. 
+This was a really enjoyable experience! It was the first time I've manipulated a data set using a map function inside of a CRUD operation. 
 
-In future iterations an Async function may solve the need to restart the server, but I look forward to hearing from the engineering team on how they would handle this challenge!
+The hardest part was trying to write this readme! I had to really go back to the basics and learn how I would set up a development environment if i didn't have any experience in it. After extensive testing on my partners computer(which I will have to clean up after all the installs I set up) I've made this set up as lean as I can.
 
-Thank you again for the opportunity to showcase what I can do!
+Thank you again for the opportunity to showcase what I can do and i'm looking forward to discussing the challenge with the engineering team!
